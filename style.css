@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* variable */
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+}
+body{
+    font-family:"Poppins";
+    color: var(--primary-text-color);
+    background-color: #7589fa;
+}
+
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--secondary-text-color);
+    line-height: 1.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+nav{
+    background-color: #89f7a8;
+    box-shadow: 0 0 4px #bbd8e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+
+.main-nav{
+    justify-content: space-between;
+    padding-block: 8px;
+}
+
+.nav-item.active{
+    color: var(--accent-color-dark);
+}
+
+.company_logo img{
+    width: 190px;
+    
+}
+
+.nav-links ul{
+    gap: 16px;
+}
+
+.hover-link {
+    cursor: pointer;
+}
+
+.hover-link:hover{
+    color: var(--secondary-text-color);
+} 
+
+.hover-link:active{
+    color: red;
+}
+
+.search-bar{
+    height: 32px;
+    gap: 8px;
+}
+
+.news-input{
+    width: 200px;
+    height: 100%;
+    padding-inline: 12px;
+    border-radius: 4px;
+    border: 2px solid #1d69a3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.search-button{
+    background-color: var(--accent-color);
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.search-button:hover{
+    background-color: var(--accent-color-dark);
+}
+
+
+
+
+
+
+main{
+    padding-block: 20px;
+    margin-top: 80px;
+
+}
+
+.cards-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+}
+
+.card{
+    width: 360px;
+    min-height: 400px;
+    box-shadow: 0 0 4px #bbd8e2;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ba9cf1;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+}
+
+.card:hover{
+    box-shadow: 1px 1px 8px #2294ed;
+    background-color: aqua;
+    transform: translateY(-2px);
+}
+
+.card-header img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 12px;
+}
+
+.news-source{
+    margin-block: 12px;
+}
