@@ -30,3 +30,5 @@ To run this project locally, follow these steps:
 
 - Click on any category in the navigation menu to view news articles related to that category.
 - Use the search bar to search for news articles based on keywords.
+
+## Demo
