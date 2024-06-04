@@ -37,5 +37,6 @@ To run this project locally, follow these steps:
 ![News3](https://github.com/Ayantanu2002/News-App/assets/90440437/df1b43b1-8537-409b-95fc-31623b34701b)
 
 You can click the news and goto the original page of news:
+
 ![News4](https://github.com/Ayantanu2002/News-App/assets/90440437/bfed003a-7667-4c42-ac95-6795c8606275)
 
