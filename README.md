@@ -32,3 +32,10 @@ To run this project locally, follow these steps:
 - Use the search bar to search for news articles based on keywords.
 
 ## Demo
+![News1](https://github.com/Ayantanu2002/News-App/assets/90440437/bc092cdf-bc32-446d-8a81-b730a169c921)
+![News2](https://github.com/Ayantanu2002/News-App/assets/90440437/ced42a48-30fe-4720-b43f-3fac14adf166)
+![News3](https://github.com/Ayantanu2002/News-App/assets/90440437/df1b43b1-8537-409b-95fc-31623b34701b)
+
+You can click the news and goto the original page of news:
+![News4](https://github.com/Ayantanu2002/News-App/assets/90440437/bfed003a-7667-4c42-ac95-6795c8606275)
+
